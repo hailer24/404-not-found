@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fafafa;
+}
+header {
+  padding: 20px 24px;
+  padding-left: 40px;
+}
+
+header .header-title {
+  font-family: Inconsolata;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 25px;
+  text-transform: uppercase;
+
+  color: #333333;
+}
+
+main {
+  width: 100vw;
+  font-family: "Space Mono", monospace;
+  display: flex;
+  justify-content: center;
+}
+
+main .content-image {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .content-image img {
+  display: block;
+  width: 70%;
+  max-width: 539px;
+}
+
+main .content-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 71px;
+  letter-spacing: -1.68px;
+  color: #333;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+main .content-description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.63px;
+  color: #4f4f4f;
+  margin-bottom: 60px;
+  max-width: 380px;
+}
+
+main .content-button {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.49px;
+  color: #fff;
+  background-color: #333;
+  padding: 24px 43px;
+  border: none;
+  text-transform: uppercase;
+  margin-bottom: 90px;
+}
+main .content-button:hover {
+  background-color: #555;
+}
+
+footer {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #333;
+}
+a:active,
+a:hover {
+  color: #777;
+}
